@@ -21,12 +21,29 @@ input {
   display: block;
   margin-bottom: 1rem;
   border: 1px solid rgb(184, 184, 184);
-  pad: 0.25rem;
+  padding: 0.25rem;
   color: rgb(58, 58, 58);
+}
+
+input:focus {
+  background-color: rgb(219, 190, 253);
+  color: rgb(39, 3, 63);
+  border-color: rgb(39, 3, 63);
 }
 
 button {
   display: block;
   font-family: 'Libertinus Keyboard', sans-serif;
   font-size: 1rem;
+  background-color: rgb(32, 5, 63);
+  color: white;
+  border: 1px solid rgb(32, 5, 63);
+  padding: 1rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(52, 14, 95);
+  border-color: rgb(52, 14, 95);
 }
