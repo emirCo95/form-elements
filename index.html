@@ -27,11 +27,16 @@
       <input type="date" name="user-birthdate" id="user-birthdate" />
       <hr />
       <h2>How should we verify your account?</h2>
-      <input type="radio" name="verify" id="SMS" />
-      <label for="SMS">Via SMS</label>
-      <input type="radio" name="verify" id="phone" />
+      <input
+        type="radio"
+        name="verify"
+        id="text-message"
+        value="text-message"
+      />
+      <label for="text-message">Via SMS</label>
+      <input type="radio" name="verify" id="phone" value="phone" />
       <label for="phone">Via phone call</label>
-      <input type="radio" name="verify" id="email" />
+      <input type="radio" name="verify" id="email" value="email" />
       <label for="email">Via email </label>
       <button>Submit</button>
     </form>
