@@ -1,5 +1,6 @@
 body {
   background-color: rgb(30, 30, 30);
+  font-family: 'Libertinus Keyboard', sans-serif;
 }
 
 form {
@@ -19,4 +20,5 @@ input {
 
 button {
   display: block;
+  font-family: 'Libertinus Keyboard', sans-serif;
 }
