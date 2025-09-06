@@ -1,3 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+form {
+  width: 30rem;
+  margin: 2rem auto;
+  background-color: aliceblue;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px black;
+}
+
+.form-control-group {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.form-control-group label {
+  padding-bottom: 0.5rem;
+}
+
+.form-control-group input {
+  height: 1.5rem;
+  font-family: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
 }
