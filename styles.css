@@ -27,6 +27,10 @@ select {
   color: rgb(58, 58, 58);
 }
 
+textarea {
+  resize: none;
+}
+
 input:focus,
 textarea:focus,
 select:focus {
